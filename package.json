@@ -1,11 +1,8 @@
 {
   "name": "DIGG-IT",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
   "scripts": {
-    "dist": "webpack -p",
-    "postinstall": "npm run dist",
+
     "start": "node server.js"
   },
   "repository": {
@@ -25,9 +22,7 @@
     "react": "^0.14.2",
     "react-dom": "^0.14.2",
     "react-redux": "4.4.1",
-    "redux": "^3.0.4"
-  },
-  "devDependencies": {
+    "redux": "^3.0.4",
     "babel-core": "^6.1.21",
     "babel-loader": "^6.2.0",
     "babel-preset-es2015": "^6.1.18",
@@ -37,5 +32,7 @@
     "webpack": "^1.12.2",
     "webpack-dev-server": "^1.12.1",
     "extract-text-webpack-plugin": "1.0.1"
+  },
+  "devDependencies": {
   }
 }
