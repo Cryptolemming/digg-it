@@ -94,7 +94,7 @@ class App extends Component {
 						<List items={todos} remove={actions.removeItem} />
 				</div>
 				<div style={styles.footer}>
-					<a style={styles.footerLink} href='https://www.amoderndev.com'>&copy; ali ayoub 2016</a> 
+					<a style={styles.footerLink} href='http://www.amoderndev.com'>&copy; ali ayoub 2016</a> 
 				</div>
 			</div>
 		)
