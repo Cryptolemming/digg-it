@@ -2,7 +2,8 @@
   "name": "DIGG-IT",
   "version": "1.0.0",
   "scripts": {
-
+    "dist": "webpack -p",
+    "postinstall": "npm run dist",
     "start": "node server.js"
   },
   "repository": {
