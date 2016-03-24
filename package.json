@@ -1,5 +1,5 @@
 {
-  "name": "redux-learning",
+  "name": "DIGG-IT",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Cryptolemming/redux-learning.git"
+    "url": "git+https://github.com/Cryptolemming/digg-it.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Cryptolemming/redux-learning/issues"
+    "url": "https://github.com/Cryptolemming/digg-it/issues"
   },
-  "homepage": "https://github.com/Cryptolemming/redux-learning#readme",
+  "homepage": "https://github.com/Cryptolemming/digg-it#readme",
   "dependencies": {
     "ejs": "2.4.1",
     "express": "4.13.4",
