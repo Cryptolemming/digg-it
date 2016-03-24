@@ -1,0 +1,28 @@
+@import 'reset.css';
+
+html, body {
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	min-width: 550px;
+	font-family: 'Open Sans';
+	color: #212121;
+	background: #FBFBFB;
+	letter-spacing: 1.2px;
+	word-break
+}
+
+h1 {
+	margin: 0;
+	font-size: 85px;
+	font-style: italic;
+}
+
+a {
+	color: #FBFBFB;
+	text-decoration: none;
+}
+
+ul {
+	list-style-type: none;
+}

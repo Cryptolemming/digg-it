@@ -1,0 +1,41 @@
+{
+  "name": "redux-learning",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dist": "webpack -p",
+    "postinstall": "npm run dist",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cryptolemming/redux-learning.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Cryptolemming/redux-learning/issues"
+  },
+  "homepage": "https://github.com/Cryptolemming/redux-learning#readme",
+  "dependencies": {
+    "ejs": "2.4.1",
+    "express": "4.13.4",
+    "radium": "0.16.6",
+    "react": "^0.14.2",
+    "react-dom": "^0.14.2",
+    "react-redux": "4.4.1",
+    "redux": "^3.0.4"
+  },
+  "devDependencies": {
+    "babel-core": "^6.1.21",
+    "babel-loader": "^6.2.0",
+    "babel-preset-es2015": "^6.1.18",
+    "babel-preset-react": "^6.1.18",
+    "babel-preset-stage-0": "6.5.0",
+    "babel-plugin-transform-decorators-legacy": "1.3.4",
+    "webpack": "^1.12.2",
+    "webpack-dev-server": "^1.12.1",
+    "extract-text-webpack-plugin": "1.0.1"
+  }
+}
