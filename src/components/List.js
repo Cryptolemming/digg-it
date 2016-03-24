@@ -20,7 +20,7 @@ const styles = {
 		wordBreak: 'break-all',
 	},
 	features: {
-		width: '55vw',
+		width: '35vw',
 		minWidth: '250px',
 		display: 'block',
 		padding: 0,
