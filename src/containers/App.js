@@ -12,15 +12,6 @@ let styles = {
 		margin: 0,
 		width: '100%',
 	},
-	linkContainer: {
-		display: 'inline-block',
-		verticalAlign: 'middle',
-		fontSize: '12px',
-		fontStyle: 'italic',
-		float: 'right',
-		margin: 0,
-		padding: 0,
-	},
 	header: {
 		margin: 0,
 		width: '100%',
@@ -29,11 +20,15 @@ let styles = {
 		background: '#03A9F4',
 		color: '#B3E5FC',
 		textAlign: 'center',
-		justifyContent: 'middle',
+		display: 'table',
+	},
+	headerContents: {
+		display: 'table-cell',
+		verticalAlign: 'middle',
 	},
 	title: {
 		fontsize: '85px',
-		padding: '20px',
+		paddingBottom: '20px',
 		color: '#FBFBFB',
 	},
 	diggit: {
@@ -81,12 +76,14 @@ class App extends Component {
 		return(
 			<div style={styles.container}>
 				<div style={styles.header}>
-					<h1 style={styles.title}>DIGG-IT</h1>
-					<i className='fa fa-check' style={styles.diggit}></i>
-					<div style={styles.todoAdd}>
-						<h3>Will your TODO earn a DIGG-IT?</h3>
-						<h3>Add one to find out</h3>
-						<AddItem add={actions.addItem} />
+					<div style={styles.headerContents}>
+						<h1 style={styles.title}>DIGG-IT</h1>
+						<i className='fa fa-check' style={styles.diggit}></i>
+						<div style={styles.todoAdd}>
+							<h3>Will your TODO earn a DIGG-IT?</h3>
+							<h3>Add one to find out</h3>
+							<AddItem add={actions.addItem} />
+						</div>
 					</div>
 				</div>
 				<div style={styles.divider}></div>
@@ -94,8 +91,8 @@ class App extends Component {
 						<List items={todos} remove={actions.removeItem} />
 				</div>
 				<div style={styles.footer}>
-					<a style={styles.footerLink} href='http://www.amoderndev.com'>&copy; ali ayoub 2016</a> 
-				</div>
+					<a style={styles.footerLink} href='http://www.amoderndev.com/projects'>&copy; ali ayoub 2016</a>
+				</div> 
 			</div>
 		)
 	}
