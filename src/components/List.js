@@ -16,7 +16,6 @@ const styles = {
 		fontSize: '30px',
 		textAlign: 'center',
 		fontStyle: 'italic',
-		fontFamily: 'cursive !important',
 		wordBreak: 'break-all',
 	},
 	features: {
